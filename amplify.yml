@@ -1,0 +1,18 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands: []
+        build:
+          commands: []
+      artifacts:
+        baseDirectory: .
+        files:
+          - index.html
+          - 404.html
+          - error.html
+          - styles.css
+      cache:
+        paths: []
+    appRoot: /
